@@ -1,0 +1,104 @@
+[
+  {
+    "Symbol": "Ag",
+    "Name": "Silver (fine)",
+    "MeltingPoint": 1762,
+    "SpecificGravity": 10.6
+  },
+  {
+    "Symbol": "Al",
+    "Name": "Aluminum",
+    "MeltingPoint": 1220,
+    "SpecificGravity": 2.7
+  },
+  {
+    "Symbol": "Au",
+    "Name": "Gold (fine)",
+    "MeltingPoint": 1945,
+    "SpecificGravity": 19.3
+  },
+  {
+    "Symbol": "Bi",
+    "Name": "Bismuth",
+    "MeltingPoint": 520,
+    "SpecificGravity": 9.8
+  },
+  {
+    "Symbol": "Cd",
+    "Name": "Cadmium",
+    "MeltingPoint": 610,
+    "SpecificGravity": 8.7
+  },
+  {
+    "Symbol": "Cr",
+    "Name": "Chromium",
+    "MeltingPoint": 3434,
+    "SpecificGravity": 6.9
+  },
+  {
+    "Symbol": "Cu",
+    "Name": "Copper",
+    "MeltingPoint": 1981,
+    "SpecificGravity": 8.9
+  },
+  {
+    "Symbol": "Fe",
+    "Name": "Iron",
+    "MeltingPoint": 2793,
+    "SpecificGravity": 7.9
+  },
+  {
+    "Symbol": "Mg",
+    "Name": "Magnesium",
+    "MeltingPoint": 1204,
+    "SpecificGravity": 1.7
+  },
+  {
+    "Symbol": "Ni",
+    "Name": "Nickel",
+    "MeltingPoint": 2651,
+    "SpecificGravity": 8.8
+  },
+  {
+    "Symbol": "Pb",
+    "Name": "Lead",
+    "MeltingPoint": 621,
+    "SpecificGravity": 11.3
+  },
+  {
+    "Symbol": "Pd",
+    "Name": "Palladium",
+    "MeltingPoint": 2820,
+    "SpecificGravity": 12.2
+  },
+  {
+    "Symbol": "Pt",
+    "Name": "Platinum",
+    "MeltingPoint": 3225,
+    "SpecificGravity": 21.4
+  },
+  {
+    "Symbol": "Sb",
+    "Name": "Antimony",
+    "MeltingPoint": 1168,
+    "SpecificGravity": 6.6
+  },
+  {
+    "Symbol": "Sn",
+    "Name": "Tin",
+    "MeltingPoint": 450,
+    "SpecificGravity": 7.3
+  },
+  {
+    "Symbol": "Ti",
+    "Name": "Titanium",
+    "MeltingPoint": 3272,
+    "SpecificGravity": 4.5
+  },
+  {
+    "Symbol": "Zn",
+    "Name": "Zinc",
+    "MeltingPoint": 786,
+    "SpecificGravity": 7.1
+  }
+]
