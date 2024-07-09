@@ -12,7 +12,7 @@ Citations: We leveraged ideas and help from the following sources:
 function Get-MACVendor {
   param (
     [parameter(Mandatory=$false)]
-    $MACAddress = $null,
+    $MACAddress,
 
     [parameter(Mandatory=$true)]
     [string]$DatabasePath 
@@ -22,7 +22,16 @@ if (!(Test-Path -Path $DatabasePath)) {
     Write-Host "Error: The file path does not exist." -ForegroundColor red
 } 
 elseif ($null -ne $MACAddress) {
-    (get-content $DatabasePath | findstr $MACAddress).split()[1]
+    $MACAddress = $MACAddress.split('-')[0..2] -join ':'
+    $MACAddress = $MACAddress.substring(0,8)
+    $data = (get-content $DatabasePath | findstr $MACAddress.ToUpper())
+    if($null -eq $data)
+    {
+        Write-Host "Error: Mac address not found" -ForegroundColor red
+    }
+    else {
+        $data.split()[1]
+    }
 }
 # code is resused
 else {
