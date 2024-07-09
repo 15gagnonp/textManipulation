@@ -44,7 +44,7 @@ else {
         for ($i = 0; $i -lt $macArr.count -1 ; $i++) {
             try {
                 Write-Host "$($macarr[$i]): " -NoNewLine
-                (Get-Content $DatabasePath | findstr $macArr[$i]).split()[1]
+                (Get-Content $DatabasePath | findstr $macArr[$i]).split(0x09)[1]
             }
             catch {
                 Write-Host 'address not found' -ForegroundColor red
